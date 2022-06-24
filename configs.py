@@ -24,7 +24,7 @@ class Config(object):
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", True))
 	USAGE_WATERMARK_ADDER = """
-Hɪ, I ᴀᴍ Vɪᴅᴇᴏ Wᴀᴛᴇʀᴍᴀʀᴋ Aᴅᴅᴇʀ Bᴏᴛ!
+Hɪ [👋](https://telegra.ph/file/ce4fa9c519495a18ac6ab.jpg) , I ᴀᴍ Vɪᴅᴇᴏ Wᴀᴛᴇʀᴍᴀʀᴋ Aᴅᴅᴇʀ Bᴏᴛ!
 
 Hᴏᴡ ᴛᴏ Aᴅᴅᴇᴅ Wᴀᴛᴇʀᴍᴀʀᴋ ᴛᴏ ᴀ Vɪᴅᴇᴏ?
 
