@@ -450,7 +450,7 @@ async def button(bot, cmd: CallbackQuery):
 					return
 			except UserNotParticipant:
 				await cmd.message.edit(
-					text="**ʏᴏᴜ sᴛɪʟʟ ᴅɪᴅɴ'ᴛ ᴊᴏɪɴ ☹️, ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ!**\n\nᴅᴜᴇ ᴛᴏ ᴏᴠᴇᴛʟᴏᴀᴅ, ᴏɴʟʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ ʙᴏᴛ!"
+					text="**ʏᴏᴜ sᴛɪʟʟ ᴅɪᴅɴ'ᴛ ᴊᴏɪɴ ☹️, ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ!**\n\nᴅᴜᴇ ᴛᴏ ᴏᴠᴇᴛʟᴏᴀᴅ, ᴏɴʟʏ ᴄʜᴀɴɴᴇʟ sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ ʙᴏᴛ!",
 					reply_markup=InlineKeyboardMarkup(
 						[
 							[
