@@ -19,9 +19,9 @@ async def send_video_handler(bot, cmd, output_vid, video_thumbnail, duration, wi
         height=height,
         reply_to_message_id=cmd.message_id,
         supports_streaming=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")],
-                                           [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-                                           [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/Aboutmk")],
+                                           [InlineKeyboardButton("Bots Channel", url="https://t.me/tamilbots")],
+                                           [InlineKeyboardButton("Support Group", url="https://t.me/tamilsupport")]]),
         progress=progress_for_pyrogram,
         progress_args=(
             "Uploading, Wait Sir ...",
